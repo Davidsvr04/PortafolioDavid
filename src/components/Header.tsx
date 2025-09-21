@@ -1,11 +1,11 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import { FiMenu, FiX, FiHome, FiUser, FiBriefcase, FiBook, FiCode, FiFolder, FiMail } from 'react-icons/fi';
 
 const Header: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [activeSection, setActiveSection] = useState('hero');
 
-  const navItems = [
+  const navItems = useMemo(() => [
     { id: 'hero', label: 'Inicio', icon: FiHome },
     { id: 'about', label: 'Sobre Mí', icon: FiUser },
     { id: 'experience', label: 'Experiencia', icon: FiBriefcase },
@@ -13,7 +13,7 @@ const Header: React.FC = () => {
     { id: 'skills', label: 'Habilidades', icon: FiCode },
     { id: 'projects', label: 'Proyectos', icon: FiFolder },
     { id: 'contact', label: 'Contacto', icon: FiMail },
-  ];
+  ], []);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -34,7 +34,7 @@ const Header: React.FC = () => {
 
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
+  }, [navItems]);
 
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
