@@ -1,3 +1,70 @@
+# David Santiago Viloria Romero - Portafolio
+
+Un portafolio moderno y profesional desarrollado con React, TypeScript y Tailwind CSS.
+
+## 🚀 Características
+
+- **Diseño Moderno**: Interfaz limpia y profesional con animaciones suaves
+- **Totalmente Responsivo**: Optimizado para todos los dispositivos
+- **Tecnologías Modernas**: React 18, TypeScript, Tailwind CSS
+- **Rendimiento Optimizado**: Carga rápida y experiencia fluida
+- **Accesible**: Cumple con estándares de accesibilidad web
+
+## 🛠️ Tecnologías Utilizadas
+
+- React 18
+- TypeScript
+- Tailwind CSS
+- React Icons
+- CSS3 con animaciones personalizadas
+
+## 📁 Estructura del Proyecto
+
+```
+src/
+├── components/
+│   ├── Header.tsx          # Navegación principal
+│   ├── Hero.tsx           # Sección de presentación
+│   ├── Experience.tsx     # Experiencia laboral
+│   ├── Education.tsx      # Formación académica
+│   ├── Skills.tsx         # Habilidades técnicas
+│   ├── Projects.tsx       # Proyectos realizados
+│   ├── Contact.tsx        # Información de contacto
+│   └── Footer.tsx         # Pie de página
+├── App.tsx                # Componente principal
+├── index.tsx             # Punto de entrada
+└── index.css             # Estilos globales
+```
+
+## 🎨 Secciones del Portafolio
+
+1. **Inicio**: Presentación personal con información de contacto
+2. **Experiencia**: Timeline de experiencia profesional
+3. **Educación**: Formación académica y certificaciones
+4. **Habilidades**: Tecnologías y competencias con barras de progreso
+5. **Proyectos**: Galería de trabajos realizados
+6. **Contacto**: Formulario de contacto e información
+
+## 📱 Responsive Design
+
+El portafolio está completamente optimizado para:
+- 📱 Móviles (320px+)
+- 📱 Tablets (768px+)
+- 💻 Desktop (1024px+)
+- 🖥️ Large screens (1280px+)
+
+## 📞 Contacto
+
+- **Email**: david_viloria04@hotmail.com
+- **Teléfono**: 301 6550801
+- **LinkedIn**: [David Viloria](https://www.linkedin.com/in/david-viloria-1105ds/)
+- **GitHub**: [Davidsvr04](https://github.com/Davidsvr04)
+- **Ubicación**: Medellín, Colombia
+
+---
+
+Desarrollado con ❤️ por David Santiago Viloria Romero
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
