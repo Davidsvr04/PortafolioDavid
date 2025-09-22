@@ -24,14 +24,14 @@ const Skills: React.FC = () => {
       title: 'Lenguajes y Frameworks',
       icon: FiCode,
       skills: [
-        { name: 'HTML5', level: 95, color: 'from-orange-400 to-orange-600' },
-        { name: 'CSS3', level: 90, color: 'from-blue-400 to-blue-600' },
+        { name: 'HTML5', level: 90, color: 'from-orange-400 to-orange-600' },
+        { name: 'CSS3', level: 80, color: 'from-blue-400 to-blue-600' },
         { name: 'JavaScript', level: 90, color: 'from-yellow-400 to-yellow-600' },
-        { name: 'React', level: 88, color: 'from-cyan-400 to-cyan-600' },
-        { name: 'TypeScript', level: 85, color: 'from-blue-500 to-blue-700' },
+        { name: 'React', level: 70, color: 'from-cyan-400 to-cyan-600' },
+        { name: 'TypeScript', level: 70, color: 'from-blue-500 to-blue-700' },
         { name: 'Vue.js', level: 85, color: 'from-green-400 to-green-600' },
-        { name: 'Node.js', level: 82, color: 'from-green-500 to-green-700' },
-        { name: 'Express.js', level: 80, color: 'from-gray-600 to-gray-800' },
+        { name: 'Node.js', level: 85, color: 'from-green-500 to-green-700' },
+        { name: 'Express.js', level: 85, color: 'from-gray-600 to-gray-800' },
         { name: 'Python', level: 75, color: 'from-blue-600 to-yellow-500' },
       ]
     },
@@ -40,9 +40,9 @@ const Skills: React.FC = () => {
       title: 'Bases de Datos',
       icon: FiDatabase,
       skills: [
-        { name: 'MongoDB', level: 80, color: 'from-green-600 to-green-800' },
-        { name: 'PostgreSQL', level: 75, color: 'from-blue-600 to-blue-800' },
-        { name: 'SQL Server', level: 70, color: 'from-red-500 to-red-700' },
+        { name: 'MongoDB', level: 70, color: 'from-green-600 to-green-800' },
+        { name: 'PostgreSQL', level: 80, color: 'from-blue-600 to-blue-800' },
+        { name: 'SQL Server', level: 75, color: 'from-red-500 to-red-700' },
       ]
     },
     {
@@ -61,13 +61,13 @@ const Skills: React.FC = () => {
       title: 'Habilidades Blandas',
       icon: FiHeart,
       skills: [
-        { name: 'Trabajo en equipo', level: 95, color: 'from-pink-400 to-pink-600' },
-        { name: 'Responsabilidad', level: 95, color: 'from-purple-400 to-purple-600' },
+        { name: 'Trabajo en equipo', level: 100, color: 'from-pink-400 to-pink-600' },
+        { name: 'Responsabilidad', level: 100, color: 'from-purple-400 to-purple-600' },
         { name: 'Proactividad', level: 90, color: 'from-indigo-400 to-indigo-600' },
         { name: 'Adaptabilidad', level: 90, color: 'from-teal-400 to-teal-600' },
-        { name: 'Resolución de problemas', level: 88, color: 'from-emerald-400 to-emerald-600' },
+        { name: 'Resolución de problemas', level: 90, color: 'from-emerald-400 to-emerald-600' },
         { name: 'Comunicación efectiva', level: 85, color: 'from-blue-400 to-blue-600' },
-        { name: 'Liderazgo', level: 80, color: 'from-yellow-400 to-yellow-600' },
+        { name: 'Liderazgo', level: 70, color: 'from-yellow-400 to-yellow-600' },
         { name: 'Creatividad', level: 85, color: 'from-rose-400 to-rose-600' },
       ]
     }
