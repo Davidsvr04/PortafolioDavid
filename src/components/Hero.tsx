@@ -43,10 +43,14 @@ const Hero: React.FC = () => {
 
             {/* Buttons */}
             <div className="flex flex-wrap gap-4 pt-4">
-              <button className="btn-primary flex items-center space-x-2">
+              <a
+                href="/Hv_David_Viloria.pdf"
+                download="CV_David_Viloria.pdf"
+                className="btn-primary flex items-center space-x-2"
+              >
                 <FiDownload size={20} />
                 <span>Descargar CV</span>
-              </button>
+              </a>
               <button 
                 onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
                 className="btn-secondary"
