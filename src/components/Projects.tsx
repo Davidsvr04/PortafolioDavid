@@ -18,12 +18,12 @@ const Projects: React.FC = () => {
       id: 1,
       title: "Sistema de Gestion de Finanzas - Proyecto Propio",
       description: "Aplicativo web desarrollado para la gestión de finanzas personales.",
-      technologies: ["Vue.js", "JavaScript", "HTML5", "CSS3", "Node.js", "PostgreSQL"],
+      technologies: ["React", "TypeScript", "HTML5", "Tailwind CSS", "Node.js", "PostgreSQL"],
       isPlaceholder: true
     },
     {
       id: 2,
-      title: "Plataforma E-commerce - Tienda Medica",
+      title: "Plataforma E-commerce - Uniformes Moda",
       description: "Aplicación web escalable para comercio electrónico con integración de pagos, gestión de inventarios y despliegue en la nube.",
       technologies: ["Vue.js", "JavaScript", "Node.js", "Microsoft Azure", "Docker", "PostgreSQL"],
       isPlaceholder: true
@@ -32,7 +32,7 @@ const Projects: React.FC = () => {
       id: 3,
       title: "Bot de Automatización",
       description: "Bot personalizado desarrollado para automatizar tareas repetitivas y optimizar procesos de negocio, mejorando la productividad del equipo.",
-      technologies: ["Python", "Node.js", "APIs", "Docker"],
+      technologies: ["Python", "Pandas", "Docker"],
       isPlaceholder: true
     },
     {
@@ -51,9 +51,9 @@ const Projects: React.FC = () => {
     },
     {
       id: 6,
-      title: "Aplicación Móvil Web",
+      title: "Aplicación de Escritorio",
       description: "PWA (Progressive Web App) con diseño responsive, funcionalidad offline y notificaciones push para mejorar la experiencia del usuario.",
-      technologies: ["Vue.js", "PWA", "Service Workers", "IndexedDB"],
+      technologies: ["Electron.js", "React"],
       isPlaceholder: true
     }
   ];

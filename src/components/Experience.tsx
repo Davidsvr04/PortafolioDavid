@@ -25,7 +25,7 @@ const Experience: React.FC = () => {
         "Contenedorización de aplicaciones utilizando Docker",
         "Desarrollo de bots personalizados para automatización de procesos"
       ],
-      technologies: ["React", "Node.js", "Microsoft Azure", "Docker", "JavaScript", "TypeScript"]
+      technologies: ["React", "Vue.js", "Node.js", "Microsoft Azure", "Docker", "JavaScript", "TypeScript","PostgreSQL"]
     },
     {
       id: 2,
